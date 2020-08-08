@@ -1,4 +1,5 @@
-
-<% @students.each do |student| %>
-<%= student[:first_name] %>
-<% end %>
+<div>
+  <% @students.each do |student| %>
+    <div><%= student.to_s %></div>
+  <% end %>
+</div>
